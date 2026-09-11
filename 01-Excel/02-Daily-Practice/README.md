@@ -1,26 +1,56 @@
-Days 1–3: Excel Data Analytics Practice
-After completing my introductory Excel dashboard project, I began structured daily practice for Data Analytics.
+# Excel Daily Practice
 
-Day 1 — Sales Data Analysis
-Worked with a 20-record sales dataset and practiced:
+This folder documents my structured daily Excel practice as part of my Data Analytics preparation.
 
-Basic Excel aggregation and counting functions
-IF-based categorization
-SUMIF
-XLOOKUP
-UNIQUE
-Analysis by product, category, and region
-Revenue and transaction analysis
-Day 2 — Employee Performance Analysis
-Worked with employee performance data and practiced:
+The exercises focus on applying Excel concepts to practical, business-oriented data analysis tasks.
 
-Achievement percentage calculations
-IF, AND, OR, IFERROR
-Target and status logic
-Performance and bonus eligibility analysis
-Recognition and promotion-candidate logic
-Day 3 — Regional & Category Sales Analysis
-Worked with order-level sales data and practiced:
+## Practice Topics
+
+* Data analysis and aggregation
+* Excel formulas and functions
+* Conditional logic
+* Lookups
+* Sales analysis
+* Employee performance analysis
+* Regional and category analysis
+* Data cleaning
+* Power Query
+* Dashboard and reporting techniques
+
+## Daily Practice
+
+### Day 1 — Sales Data Analysis
+
+Practiced working with sales data and analyzing revenue, products, categories, regions, and transactions using Excel formulas and functions.
+
+### Day 2 — Employee Performance Analysis
+
+Practiced analyzing employee performance using achievement percentages, conditional logic, performance status, bonus eligibility, recognition, and promotion criteria.
+
+### Day 3 — Regional & Category Sales Analysis
+
+Practiced analyzing sales by region and category using `SUMIFS`, `COUNTIFS`, and `AVERAGEIFS`.
+
+### Day 4 — Lookups
+
+Practiced retrieving and combining information from related datasets using:
+
+* XLOOKUP
+* VLOOKUP
+* INDEX + MATCH
+* IFERROR
+* SUMIFS
+* COUNTIFS
+
+### Day 5 onwards
+
+Daily exercises will be added as I progress through the Excel portion of my Data Analytics preparation.
+
+Power Query exercises will also be documented here as part of the Excel daily practice.
+
+## Goal
+
+The goal of these exercises is to build practical Excel skills that can be applied to real-world Data Analyst tasks.
 
 SUMIFS
 COUNTIFS
