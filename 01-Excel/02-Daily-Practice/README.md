@@ -42,11 +42,40 @@ Practiced retrieving and combining information from related datasets using:
 * SUMIFS
 * COUNTIFS
 
-### Day 5 onwards
+### Day 5 — Data Cleaning & Data Quality
 
-Daily exercises will be added as I progress through the Excel portion of my Data Analytics preparation.
+Worked with customer data and created a cleaned dataset from raw data.
 
-Power Query exercises will also be documented here as part of the Excel daily practice.
+Practiced:
+
+* TRIM
+* PROPER
+* LOWER
+* UPPER
+* LEFT
+* RIGHT
+* FIND
+* LEN
+* SEARCH
+* ISNUMBER
+* IF
+* AND
+* COUNTBLANK
+* COUNTA
+
+Applied these techniques to:
+
+* Standardize customer names, cities, emails, phone numbers, and product codes
+* Extract first names
+* Extract email usernames
+* Extract product categories and product numbers
+* Validate email addresses
+* Validate phone numbers
+* Validate product-code formats
+* Create an overall data-quality status
+* Check for missing values
+* Compare total and unique customer IDs
+
 
 ## Goal
 
