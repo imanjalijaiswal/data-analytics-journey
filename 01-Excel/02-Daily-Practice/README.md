@@ -76,6 +76,23 @@ Applied these techniques to:
 * Check for missing values
 * Compare total and unique customer IDs
 
+### Day 6 — Pivot Table Analysis
+
+Worked with order-level sales data and created PivotTable-based analyses to summarize and explore sales performance.
+
+Practiced:
+
+* Creating PivotTables
+* Summarizing sales by region
+* Analyzing sales by region and category
+* Analyzing sales by product
+* Using PivotTable filters
+* Comparing sales across different dimensions
+* Turning raw transaction data into summarized business information
+
+Applied PivotTables to identify regional sales performance, category-level sales, and product-level sales.
+
+
 
 ## Goal
 
