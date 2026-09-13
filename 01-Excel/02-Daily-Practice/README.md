@@ -92,6 +92,24 @@ Practiced:
 
 Applied PivotTables to identify regional sales performance, category-level sales, and product-level sales.
 
+### Day 7 — Power Query
+
+Worked with raw sales data and used Power Query to clean and transform the dataset into a structured table ready for analysis.
+
+Practiced:
+
+* Loading raw data into Power Query
+* Transforming and cleaning data
+* Standardizing inconsistent text values
+* Creating calculated columns
+* Calculating Total Sales
+* Calculating Revenue Per Unit
+* Separating raw data from cleaned/transformed data
+* Understanding the Power Query workflow for repeatable data preparation
+
+The exercise helped me understand how Power Query can be used to prepare messy raw data efficiently before analysis and reporting.
+
+
 
 
 ## Goal
