@@ -109,6 +109,34 @@ Practiced:
 
 The exercise helped me understand how Power Query can be used to prepare messy raw data efficiently before analysis and reporting.
 
+### Day 8 — Advanced Power Query
+
+Worked with multiple sales and employee datasets and used advanced Power Query techniques to combine, enrich, validate, and summarize data.
+
+Practiced:
+
+* Combining monthly sales data
+* Appending January and February sales
+* Merging sales data with employee information
+* Matching Employee IDs with employee details
+* Identifying missing employee records
+* Creating an Employee Status field
+* Creating a Sales Category field
+* Grouping data by employee
+* Calculating total sales by employee
+* Calculating total units by employee
+* Counting orders by employee
+* Grouping sales by product
+* Summarizing sales by region
+* Summarizing sales by department
+* Calculating total sales for each month
+* Counting monthly orders
+* Calculating total units sold
+* Creating reusable summary queries
+
+The exercise helped me understand how Power Query can combine data from different sources, handle unmatched records, create calculated fields, and produce summary tables for business analysis.
+
+
 
 
 
