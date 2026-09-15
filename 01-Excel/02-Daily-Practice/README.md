@@ -136,6 +136,40 @@ Practiced:
 
 The exercise helped me understand how Power Query can combine data from different sources, handle unmatched records, create calculated fields, and produce summary tables for business analysis.
 
+### Day 9 — Advanced Analysis
+
+Worked with sales data and created an advanced analysis sheet to evaluate overall business performance across different dimensions.
+
+Practiced:
+
+* Calculating Total Revenue
+* Calculating Total Cost
+* Calculating Total Profit
+* Calculating Total Units
+* Calculating Average Order Value
+* Calculating Overall Profit Margin
+* Using SUMIFS for regional analysis
+* Analyzing revenue by salesperson
+* Calculating profit by salesperson
+* Calculating salesperson profit margin
+* Analyzing revenue by product
+* Analyzing profit by category
+* Performing monthly revenue analysis
+* Comparing January and February revenue
+* Calculating revenue change
+* Calculating revenue growth percentage
+* Using INDEX and MATCH to identify top performers
+
+Applied the analysis to answer business questions such as:
+
+* Which region generated the highest revenue?
+* Which salesperson generated the highest revenue?
+* Which product generated the highest revenue?
+* Which category generated the highest profit?
+* Which salesperson had the highest profit margin?
+* Did revenue increase from January to February?
+
+The exercise helped me move from basic data calculations toward structured business analysis and drawing insights from sales data.
 
 
 
