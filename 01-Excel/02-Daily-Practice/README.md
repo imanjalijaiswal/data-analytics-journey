@@ -171,6 +171,31 @@ Applied the analysis to answer business questions such as:
 
 The exercise helped me move from basic data calculations toward structured business analysis and drawing insights from sales data.
 
+### Day 10 — Advanced Sales Performance Analysis
+
+Continued the analysis work from Day 9 in the same Excel workbook. The Day 10 analysis is included in the `Day10-Analysis` sheet of `Day09-AdvancedAnalysis.xlsx`.
+
+Practiced:
+
+* Calculating salesperson revenue
+* Ranking salespeople by revenue using RANK.EQ
+* Calculating percentage contribution to total revenue
+* Comparing actual revenue against targets
+* Calculating target variance
+* Calculating achievement percentage
+* Creating Target Achieved / Below Target status
+* Calculating monthly revenue
+* Comparing monthly revenue against targets
+* Calculating monthly variance
+* Calculating monthly achievement percentage
+* Calculating product revenue contribution
+* Calculating cumulative revenue percentage
+* Calculating product profit
+* Calculating product profit margin
+* Creating business-priority flags using IF and AND
+* Using INDEX and MATCH to identify the #1 salesperson by revenue
+
+This exercise built on the Day 9 analysis and introduced more performance-oriented metrics such as targets, rankings, achievement percentages, contribution percentages, cumulative percentages, and business decision flags.
 
 
 
