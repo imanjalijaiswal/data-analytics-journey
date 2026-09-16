@@ -198,6 +198,38 @@ Practiced:
 This exercise built on the Day 9 analysis and introduced more performance-oriented metrics such as targets, rankings, achievement percentages, contribution percentages, cumulative percentages, and business decision flags.
 
 
+### Day 11 — Business Analysis
+
+Worked with sales data and created a structured business analysis using KPIs, salesperson performance, regional performance, monthly performance, and business-focused questions.
+
+Practiced:
+
+* Calculating Total Revenue
+* Calculating Total Cost
+* Calculating Total Profit
+* Calculating Total Units
+* Calculating Overall Profit Margin
+* Calculating Average Order Value
+* Counting the Number of Orders
+* Analyzing revenue by salesperson
+* Calculating salesperson profit and profit margin
+* Calculating percentage contribution to total revenue
+* Creating business flags based on profit margin
+* Analyzing revenue, profit, and profit margin by region
+* Analyzing monthly revenue and profit
+* Calculating month-over-month growth
+* Using INDEX and MATCH to identify top performers
+* Measuring business dependency on the top salesperson
+* Identifying regions with the highest revenue and profit margin
+* Identifying salespeople requiring review based on a 25% profit-margin rule
+* Translating analysis results into business recommendations
+
+Used the analysis to answer practical business questions and connect Excel calculations with business decision-making.
+
+The exercise helped me move from performing calculations to interpreting data, identifying business issues, and presenting actionable insights.
+
+
+
 
 ## Goal
 
