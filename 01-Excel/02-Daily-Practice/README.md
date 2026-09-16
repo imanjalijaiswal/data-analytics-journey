@@ -229,6 +229,24 @@ Used the analysis to answer practical business questions and connect Excel calcu
 The exercise helped me move from performing calculations to interpreting data, identifying business issues, and presenting actionable insights.
 
 
+### Day 12 — Advanced Business Analysis
+
+Continued the business analysis work using the **datasheet from Day 11** as the source data for further analysis.
+
+Practiced:
+
+* Using the existing Day 11 dataset for further analysis
+* Creating business-focused KPIs
+* Analyzing sales performance across different dimensions
+* Comparing revenue and profit performance
+* Identifying top and low-performing areas
+* Using Excel formulas to derive meaningful business metrics
+* Interpreting calculated results to answer business questions
+* Turning analysis results into actionable business insights
+
+This exercise helped me practice working with an existing prepared dataset and performing additional analysis without starting the data preparation process from scratch.
+
+It strengthened my ability to use Excel for business analysis, identify patterns in sales data, and convert numerical results into meaningful insights.
 
 
 ## Goal
