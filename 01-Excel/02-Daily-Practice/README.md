@@ -273,6 +273,30 @@ The dashboard also highlighted key business insights, including regional perform
 This exercise helped me understand how to transform detailed Excel analysis into a clear, visual dashboard that can be used for business reporting and decision-making.
 
 
+### Day 14 — Sales Performance Case Study
+
+Completed a **Sales Performance Case Study** using the **Datasheet from Day 11** as the source data. The case study focused on investigating the decline in April sales and identifying the key business factors behind it.
+
+Practiced:
+
+* Comparing March and April revenue
+* Calculating revenue change and growth percentage
+* Comparing monthly profit and profit margin
+* Analyzing revenue decline by region
+* Identifying the region contributing most to the decline
+* Analyzing revenue decline by salesperson
+* Identifying the salesperson contributing most to the decline
+* Comparing product performance between March and April
+* Identifying poorly performing products
+* Analyzing changes in orders and units
+* Using SUMIFS and COUNTIFS for case-study analysis
+* Using INDEX and MATCH to identify specific results
+* Identifying key business risks
+* Developing management recommendations based on data
+
+The case study helped me practice approaching Excel analysis as a real business problem — moving from identifying what changed to investigating **why it changed**, identifying risks, and suggesting actions based on the data.
+
+
 
 ## Goal
 
