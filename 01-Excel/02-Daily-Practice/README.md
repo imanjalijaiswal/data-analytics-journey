@@ -248,6 +248,31 @@ This exercise helped me practice working with an existing prepared dataset and p
 
 It strengthened my ability to use Excel for business analysis, identify patterns in sales data, and convert numerical results into meaningful insights.
 
+### Day 13 — Sales Performance Dashboard
+
+Created a **Sales Performance Dashboard** using the analysis and datasheet from the same Day 11 Excel workbook. The dashboard presents key business metrics and visual analysis in a single view.
+
+Practiced:
+
+* Creating a dashboard layout
+* Displaying KPI cards
+* Showing Revenue Growth
+* Showing Total Revenue
+* Showing Total Profit
+* Showing Total Orders
+* Showing Total Profit Margin
+* Creating Revenue by Region visualization
+* Creating Revenue by Month visualization
+* Creating Salesperson Performance visualization
+* Creating Product Performance visualization
+* Presenting business insights from the analysis
+* Connecting calculated analysis results to dashboard visuals
+
+The dashboard also highlighted key business insights, including regional performance, salesperson revenue contribution, and the decline in revenue between March and April.
+
+This exercise helped me understand how to transform detailed Excel analysis into a clear, visual dashboard that can be used for business reporting and decision-making.
+
+
 
 ## Goal
 
