@@ -329,6 +329,36 @@ The mini project brought together formulas, conditional analysis, lookup techniq
 It helped me practice moving from **raw sales data → KPI analysis → identifying problems → finding insights → making data-driven recommendations**.
 
 
+### Day 16 — Final Excel Assessment
+
+Completed the **Final Excel Assessment** using the **Datasheet from the Day 11 workbook**. This assessment brought together the Excel skills practiced throughout the previous days and applied them to a complete business-analysis task.
+
+Practiced and assessed:
+
+* Data preparation and organization
+* KPI calculations
+* Revenue, cost, and profit analysis
+* Profit margin analysis
+* Order and unit analysis
+* Regional performance analysis
+* Salesperson performance analysis
+* Product and category analysis
+* Monthly performance analysis
+* Revenue growth and variance calculations
+* Lookup functions
+* Conditional logic
+* SUMIFS and COUNTIFS
+* Ranking and performance comparisons
+* Business-focused data interpretation
+* Identifying key trends and performance issues
+* Creating data-driven insights and recommendations
+
+The final assessment combined the Excel techniques learned throughout the practice journey into an end-to-end business analysis workflow, from working with the dataset to calculating metrics, interpreting results, and presenting conclusions.
+
+This marked the completion of the structured Excel practice and assessment phase.
+
+
+
 ## Goal
 
 The goal of these exercises is to build practical Excel skills that can be applied to real-world Data Analyst tasks.
