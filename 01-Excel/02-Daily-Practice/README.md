@@ -296,6 +296,37 @@ Practiced:
 
 The case study helped me practice approaching Excel analysis as a real business problem — moving from identifying what changed to investigating **why it changed**, identifying risks, and suggesting actions based on the data.
 
+### Day 15 — Sales Analysis Mini Project
+
+Completed a **Sales Analysis Mini Project** using the **Datasheet from Day 11** as the source data. The project brought together the Excel analysis techniques practiced throughout the previous days to investigate changes in sales performance.
+
+Practiced:
+
+* Creating a KPI summary
+* Calculating Total Revenue
+* Calculating Total Cost
+* Calculating Total Profit
+* Calculating Total Units
+* Calculating Overall Profit Margin
+* Calculating Average Order Value
+* Counting total orders
+* Comparing March and April performance
+* Analyzing revenue by region
+* Analyzing revenue by salesperson
+* Analyzing revenue by product
+* Performing monthly performance analysis
+* Calculating revenue change and growth percentage
+* Comparing profit and order performance
+* Identifying the biggest contributors to the revenue decline
+* Investigating the reasons behind April's weaker performance
+* Identifying key business problems
+* Developing data-driven recommendations
+* Creating an executive summary
+* Presenting findings in a business-focused format
+
+The mini project brought together formulas, conditional analysis, lookup techniques, and business interpretation into one end-to-end Excel analysis.
+
+It helped me practice moving from **raw sales data → KPI analysis → identifying problems → finding insights → making data-driven recommendations**.
 
 
 ## Goal
