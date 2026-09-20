@@ -91,4 +91,44 @@ Applied SQL queries to answer practical business questions such as:
 
 The exercise helped me understand how sorting and limiting query results can be used to quickly identify important records and support business-oriented analysis.
 
+### Day 3 — Advanced Filtering Conditions
+
+Worked with the sales dataset and practiced using advanced filtering conditions to retrieve specific records based on multiple business requirements.
+
+Practiced:
+
+- Using `AND` to combine multiple conditions
+- Using `OR` to match alternative conditions
+- Using `IN` to filter multiple values
+- Using `NOT IN` to exclude multiple values
+- Using `BETWEEN` to filter numeric ranges
+- Using `NOT BETWEEN` to exclude numeric ranges
+- Using `LIKE` for pattern matching
+- Using `NOT LIKE` to exclude text patterns
+- Using `%` as a wildcard
+- Using `_` as a single-character wildcard
+- Combining `AND` and `OR`
+- Using parentheses to control multiple conditions
+- Combining filtering with `ORDER BY`
+- Combining filtering with `LIMIT`
+- Filtering sales by region
+- Filtering sales by product
+- Filtering sales by category
+- Filtering sales by salesperson
+- Filtering sales using revenue and units
+- Solving business-oriented filtering problems
+
+Applied these concepts to answer practical business questions such as:
+
+- Which orders came from specific regions?
+- Which orders had revenue above a specified amount?
+- Which products met specific sales conditions?
+- Which salespeople handled selected orders?
+- Which orders fell within a specific revenue or unit range?
+- Which products matched a particular text pattern?
+- Which were the highest-revenue orders within selected conditions?
+
+The exercise also introduced more realistic business-analysis queries by combining multiple filtering conditions with sorting and limiting results.
+
+The Day 3 practice helped strengthen my ability to translate business requirements into SQL filtering conditions and retrieve only the records relevant to a particular analysis.
 
