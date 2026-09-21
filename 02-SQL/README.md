@@ -132,3 +132,44 @@ The exercise also introduced more realistic business-analysis queries by combini
 
 The Day 3 practice helped strengthen my ability to translate business requirements into SQL filtering conditions and retrieve only the records relevant to a particular analysis.
 
+### Day 4 — NULL, Aliases & Data Exploration
+
+Worked with the sales dataset and practiced handling missing data, improving query output readability, and exploring basic information about the dataset.
+
+Practiced:
+
+* Understanding `NULL` as a missing or unknown value
+* Distinguishing `NULL` from `0` and empty text
+* Using `IS NULL` to find missing values
+* Using `IS NOT NULL` to find available values
+* Combining `NULL` conditions with other filtering conditions
+* Using `AS` for column aliases
+* Using aliases with calculated columns
+* Using table aliases
+* Using `COALESCE()` to replace missing values when displaying results
+* Understanding the difference between `IS NULL` and `COALESCE()`
+* Using `COUNT(*)` to count rows
+* Using `COUNT(column)` to count non-NULL values
+* Using `COUNT(DISTINCT ...)` to count unique values
+* Counting missing values using `COUNT()` with `IS NULL`
+* Combining filtering, counting, sorting, and limiting
+* Performing basic data-quality checks
+* Creating business-oriented summary queries
+
+Applied these concepts to answer practical business questions such as:
+
+* Which orders have missing salesperson information?
+* Which orders have missing product or revenue information?
+* How many orders have a salesperson assigned?
+* How many orders have missing sales information?
+* How many unique regions, products, categories, and salespeople exist?
+* How can calculated values such as profit and revenue per unit be given meaningful names?
+* How can missing salesperson information be displayed as `Unknown`, `Not Assigned`, or `Unassigned`?
+* Which Kathmandu orders have salesperson information available or missing?
+* Which high-revenue orders have missing salesperson information?
+* How can sales data be summarized for data-quality reporting?
+
+The practice also combined concepts from previous days, using filtering conditions together with `IS NULL`, `IS NOT NULL`, `ORDER BY`, and `LIMIT`.
+
+This exercise strengthened my understanding of missing data in SQL and helped me apply SQL concepts to basic data-quality checks and business reporting scenarios.
+
