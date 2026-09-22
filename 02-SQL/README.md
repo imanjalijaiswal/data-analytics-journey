@@ -173,3 +173,47 @@ The practice also combined concepts from previous days, using filtering conditio
 
 This exercise strengthened my understanding of missing data in SQL and helped me apply SQL concepts to basic data-quality checks and business reporting scenarios.
 
+### Day 5 — GROUP BY & Aggregate Analysis
+
+Worked with the sales dataset and practiced summarizing data using `GROUP BY` and aggregate functions to answer business-oriented analysis questions.
+
+Practiced:
+- Using `GROUP BY` to create groups from related records
+- Using `COUNT()` to count orders and values
+- Using `SUM()` to calculate total revenue, units, and cost
+- Using `AVG()` to calculate average revenue and units
+- Using `MIN()` to find minimum values
+- Using `MAX()` to find maximum values
+- Combining multiple aggregate functions in a single query
+- Grouping data using multiple columns
+- Grouping sales by region, product, category, and salesperson
+- Using `WHERE` before `GROUP BY` to filter individual records
+- Using `HAVING` to filter grouped results
+- Understanding the difference between `WHERE` and `HAVING`
+- Combining `WHERE`, `GROUP BY`, and `HAVING`
+- Sorting aggregated results using `ORDER BY`
+- Limiting grouped results using `LIMIT`
+- Working with `NULL` values inside grouped results
+- Using `COALESCE()` with grouped data
+- Creating regional, product, category, and salesperson performance summaries
+- Solving analyst-oriented aggregation problems
+
+Applied these concepts to answer practical business questions such as:
+- How many orders came from each region?
+- How many orders were handled by each salesperson?
+- Which products generated the most revenue?
+- What was the average revenue per order in each region?
+- What were the minimum and maximum revenue values for each product?
+- How many units were sold for each product?
+- How did revenue vary across regions and products?
+- Which regions generated more than a specified amount of total revenue?
+- Which products or salespeople handled more than a specified number of orders?
+- Which regions had high total revenue after applying row-level filters?
+- Which products had high sales volume and revenue?
+- What were the top and bottom regions, products, and salespeople based on aggregated metrics?
+
+The practice also introduced more advanced business-analysis queries by combining row-level filtering with grouping, aggregation, group-level filtering, sorting, and limiting.
+
+The Day 5 challenges focused on creating complete business reports for regional and product performance and applying multiple aggregate functions together.
+
+This exercise strengthened my ability to summarize transactional data and convert individual sales records into meaningful business-level insights using SQL aggregation.
