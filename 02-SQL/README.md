@@ -217,3 +217,65 @@ The practice also introduced more advanced business-analysis queries by combinin
 The Day 5 challenges focused on creating complete business reports for regional and product performance and applying multiple aggregate functions together.
 
 This exercise strengthened my ability to summarize transactional data and convert individual sales records into meaningful business-level insights using SQL aggregation.
+
+
+### Day 6 — Advanced Aggregate Analysis
+
+Worked with the sales dataset and practiced advanced aggregate analysis by combining `GROUP BY`, aggregate functions, filtering, `HAVING`, sorting, and limiting to answer more complex business questions.
+
+Practiced:
+
+* Using multiple aggregate functions in a single query
+* Using `COUNT()` to calculate total orders
+* Using `SUM()` to calculate total units and revenue
+* Using `AVG()` to calculate average revenue
+* Using `MIN()` and `MAX()` to identify minimum and maximum values
+* Grouping data using multiple columns
+* Grouping sales by region, product, category, and salesperson
+* Analyzing region-product combinations
+* Analyzing category-region combinations
+* Using `WHERE` before `GROUP BY` to filter individual records
+* Using `HAVING` to filter aggregated groups
+* Combining `WHERE`, `GROUP BY`, and `HAVING`
+* Using `ORDER BY` to rank aggregated results
+* Using `LIMIT` to retrieve top and bottom results
+* Finding top products, regions, categories, and salespeople based on aggregated metrics
+* Excluding missing salespeople from performance analysis
+* Calculating revenue per unit
+* Creating regional performance summaries
+* Creating product performance summaries
+* Creating salesperson performance summaries
+* Solving analyst-oriented aggregation problems
+* Translating business requirements into multi-step SQL queries
+
+Applied these concepts to answer practical business questions such as:
+
+* How many orders, units, and revenue came from each region?
+* What was the average, minimum, and maximum revenue for each region?
+* How did sales performance vary across region and product combinations?
+* Which regions generated more than a specified amount of revenue?
+* Which products generated more than a specified amount of revenue?
+* Which salespeople handled more than a specified number of orders?
+* Which products had an average revenue above a specified threshold?
+* Which categories sold more than a specified number of units?
+* Which were the top and bottom products by total revenue?
+* Which regions had the highest total units sold?
+* Which salespeople generated the highest total revenue?
+* Which region-product combinations generated the highest revenue?
+* Which products met multiple performance requirements involving orders, units, and revenue?
+
+The practice also focused on combining row-level and group-level conditions. Queries were built using `WHERE` to filter individual sales records before grouping and `HAVING` to filter the resulting aggregated groups.
+
+Business-oriented exercises included creating:
+
+* Regional performance reports
+* Product performance reports
+* Salesperson performance reports
+* High-value regional analysis
+* Product filtering based on multiple performance conditions
+* Regional, product, and salesperson performance challenges
+
+The Day 6 challenges required combining multiple SQL concepts in a single query, including filtering, grouping, aggregation, `HAVING`, sorting, and limiting results.
+
+This exercise strengthened my ability to move from simple aggregation to more realistic analytical SQL queries and to translate multi-condition business requirements into structured SQL analysis.
+
