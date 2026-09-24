@@ -279,3 +279,55 @@ The Day 6 challenges required combining multiple SQL concepts in a single query,
 
 This exercise strengthened my ability to move from simple aggregation to more realistic analytical SQL queries and to translate multi-condition business requirements into structured SQL analysis.
 
+
+### Day 7 — String Functions & Text Data Cleaning
+
+Worked with the sales dataset and practiced using SQL string functions to transform, clean, standardize, combine, and analyze text data.
+
+Practiced:
+
+* Using `CONCAT()` to combine multiple text values
+* Using `CONCAT_WS()` to combine text values with a separator
+* Handling `NULL` values when combining text
+* Using `COALESCE()` with string functions
+* Using `UPPER()` to standardize text into uppercase
+* Using `LOWER()` to standardize text into lowercase
+* Using `TRIM()` to remove leading and trailing spaces
+* Using `LTRIM()` to remove leading spaces
+* Using `RTRIM()` to remove trailing spaces
+* Using `LENGTH()` to calculate string length in bytes
+* Using `CHAR_LENGTH()` to calculate character count
+* Using `LEFT()` to extract characters from the beginning of a string
+* Using `RIGHT()` to extract characters from the end of a string
+* Using `SUBSTRING()` to extract specific portions of text
+* Using `REPLACE()` to replace text values
+* Combining multiple string functions for data cleaning
+* Using string functions inside `WHERE` conditions
+* Using transformed text with `ORDER BY`
+* Grouping data using transformed text with `GROUP BY`
+* Creating cleaned and standardized text labels
+* Handling missing salesperson information while creating text outputs
+
+Applied these concepts to answer practical data-cleaning and text-analysis questions such as:
+
+* How can region and product information be combined into a readable sales label?
+* How can multiple text columns be combined using a consistent separator?
+* How can product and region names be standardized using uppercase or lowercase formatting?
+* How can unnecessary spaces be removed from text values?
+* How can the length and character count of text values be analyzed?
+* How can specific characters be extracted from product, region, and salesperson names?
+* How can portions of text be extracted using `SUBSTRING()`?
+* How can text values be replaced or standardized using `REPLACE()`?
+* How can missing salesperson values be displayed as `UNASSIGNED`?
+* How can cleaned text be used for grouping and reporting?
+* How can multiple string functions be combined to create standardized business labels?
+
+The practice also combined string functions with concepts learned in previous days, including `WHERE`, `GROUP BY`, `ORDER BY`, `COUNT()`, `SUM()`, aliases, `NULL` handling, and `COALESCE()`.
+
+Analyst-oriented exercises focused on product standardization, regional analysis, salesperson reporting, product text analysis, and creating standardized sales labels.
+
+The challenges extended these concepts into practical reporting tasks by combining text cleaning with sales information, performance metrics, grouping, and sorting.
+
+This exercise strengthened my understanding of SQL text manipulation and introduced an important data-analytics workflow: taking raw text, cleaning and standardizing it, transforming it into useful reporting fields, and then using the cleaned values for analysis.
+
+
