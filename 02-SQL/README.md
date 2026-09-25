@@ -331,3 +331,85 @@ The challenges extended these concepts into practical reporting tasks by combini
 This exercise strengthened my understanding of SQL text manipulation and introduced an important data-analytics workflow: taking raw text, cleaning and standardizing it, transforming it into useful reporting fields, and then using the cleaned values for analysis.
 
 
+
+### Day 8 — Numeric Functions & Calculated Fields
+
+Worked with the sales dataset and practiced using SQL arithmetic operations, numeric functions, and calculated fields to create useful business metrics from existing sales data.
+
+Practiced:
+
+* Creating calculated fields from existing columns
+* Using arithmetic operators such as `+`, `-`, `*`, `/`, and `%`
+* Calculating revenue per unit
+* Using `ROUND()` to control decimal places
+* Using `FLOOR()` to round values down
+* Using `CEIL()` to round values up
+* Using `TRUNCATE()` to remove decimal places without rounding
+* Using `ABS()` to calculate absolute differences
+* Using `MOD()` to calculate remainders
+* Identifying even and odd unit values
+* Calculating percentage contributions
+* Calculating discount amounts
+* Calculating revenue after discounts
+* Calculating tax amounts
+* Calculating final amounts after tax
+* Combining numeric calculations with `ROUND()`
+* Using calculated fields with `WHERE`
+* Using calculated fields with `ORDER BY`
+* Using calculated fields with `GROUP BY`
+* Using calculated fields with `HAVING`
+* Creating multiple calculated metrics in a single query
+* Understanding the difference between a calculated field and an actual table column
+* Using `NULLIF()` to handle potential division-by-zero situations
+* Combining numeric calculations with aggregation functions such as `SUM()`, `COUNT()`, and `AVG()`
+
+Applied these concepts to answer practical business questions such as:
+
+* What is the revenue generated per unit for each order?
+* Which orders have the highest or lowest revenue per unit?
+* Which orders have an even or odd number of units?
+* How much discount would be applied to an order at a specified discount rate?
+* What would the revenue be after applying a discount?
+* How much tax would be added to an order?
+* What would the final amount be after applying tax?
+* How far is each order's revenue from a specified target?
+* Which products generate the highest revenue per unit?
+* Which regions generate the highest revenue per unit?
+* Which salespeople generate more than a specified amount of total revenue?
+* Which products meet multiple performance requirements involving orders, units, revenue, and revenue per unit?
+
+The practice also strengthened the use of calculated fields together with previously learned SQL concepts such as `WHERE`, `GROUP BY`, `HAVING`, `ORDER BY`, `LIMIT`, `NULL`, and aggregate functions.
+
+A major focus of the practice was understanding the difference between calculating a metric at the individual-row level and calculating it after grouping.
+
+For example:
+
+```sql
+revenue / units
+```
+
+calculates revenue per unit for an individual order, while:
+
+```sql
+SUM(revenue) / SUM(units)
+```
+
+calculates revenue per unit at a grouped business level such as product, region, or salesperson.
+
+The analyst-oriented exercises focused on creating:
+
+* Product performance reports
+* Regional performance reports
+* Salesperson performance reports
+* Revenue-per-unit analysis
+* Discount and tax calculations
+* High-value product analysis
+* Regional revenue analysis
+* Salesperson performance analysis
+* Multi-condition business reports
+
+The challenges required combining multiple SQL concepts in a single query, including aggregation, calculated fields, `HAVING`, sorting, limiting, and filtering missing salesperson information.
+
+This exercise strengthened my ability to create business metrics from raw numerical data and helped me move from basic SQL calculations toward more realistic analytical queries and performance reports.
+
+
