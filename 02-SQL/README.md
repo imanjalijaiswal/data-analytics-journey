@@ -382,20 +382,6 @@ The practice also strengthened the use of calculated fields together with previo
 
 A major focus of the practice was understanding the difference between calculating a metric at the individual-row level and calculating it after grouping.
 
-For example:
-
-```sql
-revenue / units
-```
-
-calculates revenue per unit for an individual order, while:
-
-```sql
-SUM(revenue) / SUM(units)
-```
-
-calculates revenue per unit at a grouped business level such as product, region, or salesperson.
-
 The analyst-oriented exercises focused on creating:
 
 * Product performance reports
@@ -412,4 +398,73 @@ The challenges required combining multiple SQL concepts in a single query, inclu
 
 This exercise strengthened my ability to create business metrics from raw numerical data and helped me move from basic SQL calculations toward more realistic analytical queries and performance reports.
 
+
+### Day 9 — CASE Expressions & Conditional Analysis
+
+Worked with the sales dataset and practiced using SQL `CASE` expressions to apply conditional logic, classify data, create calculated results, and perform conditional analysis.
+
+Practiced:
+
+* Using `CASE` expressions to create conditional results
+* Using `WHEN`, `THEN`, and `ELSE`
+* Understanding how `CASE` evaluates multiple conditions
+* Understanding the importance of condition order in `CASE`
+* Using simple `CASE` expressions
+* Using searched `CASE` expressions
+* Using multiple conditions inside `CASE`
+* Creating text categories using `CASE`
+* Creating numeric results using `CASE`
+* Using `CASE` with calculated fields
+* Using `CASE` with `NULL` values
+* Using `CASE` with `GROUP BY`
+* Using `CASE` with aggregate functions
+* Using `CASE` with `SUM()` for conditional aggregation
+* Counting records based on conditions using `SUM(CASE...)`
+* Calculating conditional revenue using `SUM(CASE...)`
+* Using `CASE` with `ORDER BY`
+* Calculating percentages using conditional aggregation
+* Understanding the difference between `CASE` and `WHERE`
+* Understanding the difference between `CASE` and `COALESCE()`
+* Using aliases for `CASE` results
+* Creating performance categories
+* Creating business-oriented conditional reports
+* Combining `CASE` with previously learned SQL concepts
+
+Applied these concepts to answer practical business questions such as:
+
+* How can orders be classified as high, medium, or low value?
+* How can sales regions be classified based on total revenue?
+* How many high-value, medium-value, and low-value orders exist?
+* How much revenue comes from different order categories?
+* Which products meet specific revenue and performance conditions?
+* Which salespeople meet specific performance requirements?
+* How can missing salesperson information be handled using conditional logic?
+* How can products be classified based on revenue per unit?
+* What percentage of orders in each region are high-value orders?
+* What percentage of a product's revenue comes from high-value orders?
+* Which categories or regions generate the highest revenue?
+* How can a salesperson's performance be classified based on total revenue?
+* How can multiple business conditions be combined into one performance report?
+
+The practice also focused on understanding how `CASE` works at different levels of analysis. `CASE` can be used to classify individual rows, perform conditional aggregation, or create categories from already aggregated results. MySQL evaluates the `WHEN` conditions and returns the result for the first condition that is true.
+
+
+The practice also strengthened the understanding of percentage calculations using conditional aggregation. 
+The analyst-oriented exercises focused on creating:
+
+* Order classification reports
+* Regional revenue classification
+* Product performance reports
+* Salesperson performance reports
+* High-value order analysis
+* Conditional revenue analysis
+* Conditional order-count analysis
+* Revenue contribution percentages
+* Product performance categories
+* Regional performance categories
+* Multi-condition business reports
+
+The Day 9 challenges required combining multiple SQL concepts in a single query, including `CASE`, aggregate functions, calculated fields, `HAVING`, sorting, and filtering.
+
+This exercise strengthened my ability to use SQL conditional logic for business analysis and helped me move from simply retrieving and aggregating data toward creating meaningful classifications, performance categories, conditional metrics, and business-oriented reports.
 
