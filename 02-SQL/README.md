@@ -543,6 +543,11 @@ The analyst-oriented exercises focused on creating:
 * High-value revenue contribution analysis
 * Multi-condition business reports
 
+The Day 10 challenges required combining multiple SQL concepts in a single query, including `JOIN`, aggregation, calculated fields, `HAVING`, `CASE`, sorting, and filtering.
+
+This exercise strengthened my ability to work with relational data across multiple tables and helped me move from analyzing a single sales table toward more realistic data-analytics queries involving table relationships, data-quality checks, calculated business metrics, and multi-table performance reporting.
+
+
 
 ### Day 11 — Multiple-Table JOINs
 
@@ -676,7 +681,7 @@ The exercises built on the JOIN concepts from Day 11 and introduced another impo
 
 
 
-
 The Day 10 challenges required combining multiple SQL concepts in a single query, including `JOIN`, aggregation, calculated fields, `HAVING`, `CASE`, sorting, and filtering.
 
 This exercise strengthened my ability to work with relational data across multiple tables and helped me move from analyzing a single sales table toward more realistic data-analytics queries involving table relationships, data-quality checks, calculated business metrics, and multi-table performance reporting.
+
