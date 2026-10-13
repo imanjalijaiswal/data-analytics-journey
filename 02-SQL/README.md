@@ -1103,3 +1103,108 @@ This helped me understand how SQL Window Functions can be used to analyze sales 
 
 
 
+### Day 17 — LAG & LEAD
+
+Practiced using SQL Window Functions `LAG()` and `LEAD()` to retrieve values from previous and following rows without removing individual records from the result.
+
+The exercises focused on comparing consecutive sales, retrieving values from specific row offsets, calculating revenue changes, measuring percentage changes, and performing comparisons within salesperson, customer, and regional partitions.
+
+**Practiced:**
+- Understanding `LAG()` and `LEAD()`
+- Retrieving values from previous rows using `LAG()`
+- Retrieving values from following rows using `LEAD()`
+- Understanding the importance of `ORDER BY` in window calculations
+- Retrieving the previous sale's revenue
+- Retrieving the previous sale's product
+- Retrieving the next sale's revenue
+- Retrieving the next sale's product
+- Using offsets with `LAG()` and `LEAD()`
+- Retrieving values from two rows earlier
+- Retrieving values from two rows ahead
+- Using default values when previous or following rows do not exist
+- Understanding `NULL` results at partition boundaries
+- Using `LAG()` with numeric and text columns
+- Calculating revenue changes between consecutive sales
+- Calculating percentage changes between consecutive sales
+- Comparing current revenue with the next sale's revenue
+- Using `PARTITION BY` with `LAG()` and `LEAD()`
+- Retrieving the previous sale for each salesperson
+- Retrieving the next sale for each salesperson
+- Calculating revenue changes within each salesperson's sales sequence
+- Retrieving previous purchases for individual customers
+- Calculating customer purchase changes
+- Retrieving previous sales within each region
+- Calculating regional revenue changes
+- Combining `LAG()` and `LEAD()` in the same query
+- Displaying previous, current, and next products together
+- Using multiple offsets in one query
+- Combining row comparisons with arithmetic calculations
+- Understanding the difference between `LAG()`/`LEAD()` and running totals
+- Understanding how `LAG()` and `LEAD()` differ from aggregate window functions with frames
+- Combining multiple `LAG()` and `LEAD()` calculations in an analytical report
+
+Applied `LAG()` and `LEAD()` to answer business questions such as:
+- What was the revenue of the previous sale?
+- Which product was sold immediately before the current sale?
+- What was the revenue two sales ago?
+- What is the revenue of the next sale?
+- Which product will appear in the next sale?
+- What is the revenue two sales ahead?
+- How much did revenue increase or decrease compared with the previous sale?
+- What was the percentage change from the previous sale?
+- How does current revenue compare with the next sale's revenue?
+- What was the previous sale made by the same salesperson?
+- What is the next sale made by the same salesperson?
+- How does each salesperson's revenue change between consecutive sales?
+- What did each customer spend on their previous purchase?
+- How much did a customer's purchase value change?
+- What was the previous sale within each region?
+- How does revenue change between consecutive regional sales?
+- How can previous, current, and next sale values be displayed together?
+- How can previous, current, and next products be compared?
+- How can a default value be returned when the requested previous row does not exist?
+- How can previous and next values be combined with revenue and percentage-change calculations to build a salesperson trend report?
+
+The practice strengthened my understanding of the difference between:
+- `LAG()` and `LEAD()`
+- Previous rows and following rows
+- The current row and adjacent rows
+- Default offsets and explicitly specified offsets
+- `NULL` results and user-defined default values
+- Comparisons across the entire dataset and comparisons within partitions
+- Company-wide comparisons and salesperson-level comparisons
+- Customer-level comparisons and regional comparisons
+- Revenue change and percentage change
+- Retrieving values from other rows and aggregating values across rows
+- `LAG()`/`LEAD()` and running totals
+- Row offsets and window frames
+
+A major concept from Day 17 was understanding that `LAG()` retrieves a value from a preceding row, while `LEAD()` retrieves a value from a following row.
+
+The `ORDER BY` clause determines the sequence of rows, `PARTITION BY` creates separate sequences for groups such as salespeople, customers, or regions, and the offset determines how many rows backward or forward to retrieve.
+
+For example:
+
+```sql
+LAG(revenue) OVER(
+    PARTITION BY salesperson
+    ORDER BY date
+)
+```
+
+retrieves the previous sale's revenue for the same salesperson.
+
+```sql
+LEAD(revenue) OVER(
+    PARTITION BY salesperson
+    ORDER BY date
+)
+```
+
+retrieves the next sale's revenue for the same salesperson.
+
+These calculations make it possible to analyze changes between consecutive sales without collapsing the individual records.
+
+Day 17 built on the Window Function concepts from Days 14–16 and developed further analytical skills using row offsets, previous and next values, revenue comparisons, percentage changes, and partition-based analysis.
+
+The practice strengthened my ability to compare sequential records and build detailed trend reports using SQL Window Functions.
