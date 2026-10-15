@@ -1200,7 +1200,6 @@ LEAD(revenue) OVER(
     ORDER BY date
 )
 ```
-
 retrieves the next sale's revenue for the same salesperson.
 
 These calculations make it possible to analyze changes between consecutive sales without collapsing the individual records.
@@ -1208,3 +1207,56 @@ These calculations make it possible to analyze changes between consecutive sales
 Day 17 built on the Window Function concepts from Days 14–16 and developed further analytical skills using row offsets, previous and next values, revenue comparisons, percentage changes, and partition-based analysis.
 
 The practice strengthened my ability to compare sequential records and build detailed trend reports using SQL Window Functions.
+
+
+
+# Day 18 — Advanced SQL Analysis
+
+This folder documents my Day 18 SQL practice as part of my Data Analytics preparation.
+
+The exercises focus on combining Common Table Expressions (CTEs), aggregate functions, window functions, conditional logic, and multi-stage queries to solve complex business analysis problems using MySQL.
+
+The goal of this practice was to move beyond individual SQL operations and develop the ability to structure analytical queries, compare performance at different aggregation levels, and generate meaningful business insights.
+
+## Practiced:
+
+- Combining multiple CTEs to divide complex queries into logical stages.
+- Calculating salesperson-level, product-level, regional, category-level, and customer-level summaries.
+- Using `SUM()`, `COUNT()`, `AVG()`, and arithmetic expressions to calculate business metrics.
+- Calculating total revenue, total cost, total profit, total units sold, and profit margin.
+- Using `RANK()` to rank salespeople, products, and categories by performance.
+- Applying `PARTITION BY` to calculate rankings and averages within specific groups.
+- Comparing individual performance against overall or group-level averages.
+- Using `CASE` statements to classify performance as above average, below average, or equal to average.
+- Filtering analytical results using outer queries and subsequent CTEs.
+- Combining CTEs, window functions, joins, and `CROSS JOIN` for multi-step analysis.
+- Calculating revenue contribution percentages relative to total company revenue.
+- Identifying top-performing products within categories while accounting for tied rankings.
+- Distinguishing between individual order values and aggregated business metrics.
+- Choosing the correct aggregation level before calculating averages, rankings, and comparisons.
+
+## Applied the analysis/questions to answer business questions such as:
+
+- Which salespeople generate the highest total revenue and profit?
+- Which salespeople perform above the average salesperson revenue?
+- Do revenue leaders also rank highest in profit?
+- Which products generate the highest revenue within each category?
+- Which products perform above their category's average product revenue?
+- Which regions generate revenue above the average regional revenue?
+- Which salespeople are the most profitable within their respective regions?
+- Which customers generate above-average total revenue?
+- Which salespeople rank among the top performers in both revenue and profit?
+- Which high-value individual orders belong to above-average salespeople?
+- What percentage of total company revenue does each category contribute?
+- How does the highest-revenue product in each category compare with the category's average product revenue?
+
+## Key learning outcomes:
+
+- Learned to break complex analytical problems into smaller, reusable query stages using CTEs.
+- Strengthened the understanding of how aggregation level affects averages, rankings, and business comparisons.
+- Practiced combining grouped summaries with window functions without losing the intended level of analysis.
+- Improved the ability to use rankings and partitions to compare performance across different business groups.
+- Practiced connecting detailed transaction records with aggregated salesperson-level results.
+- Developed a structured approach to building multi-step business reports in SQL.
+
+This practice strengthened my ability to combine previously learned SQL concepts to solve multi-step analytical problems and transform sales transaction data into meaningful business performance reports.
